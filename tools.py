@@ -2,7 +2,6 @@ from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 from multiprocessing import cpu_count
 from datetime import datetime
 
-
 def cur_time():
     now = datetime.now()
     return f'Текущее время сервера: {now.strftime("%d-%m-%Y %H:%M:%S")}'
