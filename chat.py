@@ -1,8 +1,8 @@
 import os
 import numpy as np
 
-#os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 import pandas as pd
 import string
 from datetime import datetime
